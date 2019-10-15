@@ -4,7 +4,7 @@
 
 #include "PrimSphere.h"
 #include "PrimPlane.h"
-#include "PrimTriangle.h"
+//#include "PrimTriangle.h"
 
 #include "ShaderFlat.h"
 #include "ShaderEyelight.h"
@@ -56,5 +56,6 @@ int main(int argc, char *argv[])
 	imshow("Image", img);
 	waitKey();
 	imwrite("cow.jpg", img);
+
 	return 0;
 }
