@@ -17,7 +17,7 @@ void CScene::ParseOBJ(const std::string &fileName)
 	//http://www.opengl-tutorial.org/beginners-tutorials/tutorial-7-model-loading/
 
 	std::ifstream tmpFile;
-	tmpFile.open("cow.obj", std::ios::out | std::ios::app | std::ios::binary);
+	tmpFile.open(fileName, std::ios::out | std::ios::app | std::ios::binary);
 	if (!tmpFile)
 	{
 		std::cout << "Unable to open file";
